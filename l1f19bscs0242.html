@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio website</title>
+
+	<style type="text/css">
+		@keyframes X{
+			from{bottom: 1000px}
+			to{bottom: 0px}
+		}
+
+*{
+	animation-name: X;
+	animation-duration: 4s;
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+img 
+{
+	  border-radius: 50%;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url("t3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	padding-top:45px;
+	padding-left:8%;
+	padding-right:8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover
+{
+	color: #f9004d;
+	transition: .2s;
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1
+{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+		animation-name: AAA;
+	animation-duration: 2s;
+}
+h3
+{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.newslatter form
+{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child
+{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text
+{
+	width: 550px;
+}
+.main
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	animation-name: AAA;
+		animation-duration: 2s;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.about-text ol
+{
+
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+}
+
+	</style>
+	<meta charset="utf-8">
+<meta name="author" content="Ahmad Inam L1f19bscs0242">
+<br>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+ 
+
+</head>
+<body>
+	
+
+	<div class="hero" >
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="https://www.fiverr.com/users/ahmadinam24/seller_dashboard">Services</a></li>
+				<li><a href="https://drive.google.com/drive/folders/1L9_QRBRB8wzemRzAduddZ1wPVQD1ikQk?usp=sharing">Skills</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<div class="content">
+			<img src="https://media-exp1.licdn.com/dms/image/C4D03AQGe8OnaU4z03A/profile-displayphoto-shrink_800_800/0/1593805240317?e=1655337600&v=beta&t=OjFaMuAY6PGta-UeoVvZ2yIm-xeNkcj-F7_b_tD5QUc" alt="Ahmad Inam" style="width: 200px; align-content: center;">
+			<h1>Ahmad <span>Inam</span></h1>
+			<h3>Software Engineer | SEO Expert | Content Writer </h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<section class="about">
+		<div class="main">
+			<div class="about-text">
+				<h2>Project Description</h2>
+				<h5>School Management <span> System</span></h5>
+				<p>
+		        The <strong>School Management System</strong> </span>is a web-based system which will use as a platform for interaction between student and teachers.While the main objective of this project is to computerize the paperwork in the system and automate the work. We will try to replicate all the possible functionalities of <strong> School Management System</strong> so that it works accordingly.</p>
+		        <ol>
+		        	<li>Students Data</li>
+		        	<li>Teachers Data</li>
+		        	<li>Basic CRUD Operations</li>
+		        	<li>Class enrollment</li>
+	                <li>Performance monitoring and financials</li>
+		        </ol>
+		        <h5><strong>Note:</strong></h5>
+		        <ul>
+		        	<li> <p>Project description and functionalities may vary.</p></li>
+		        </ul>
+		       
+			</div>
+		</div>
+	</section>
+
+
+	
+
+</body>
+</html>
